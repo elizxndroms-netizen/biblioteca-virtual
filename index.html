@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Virtual - Pedagogía y TIC</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <h1>📚 Biblioteca Virtual - Pedagogía y TIC</h1>
+      <p>Facultad de Humanidades | Departamento de Educación Virtual</p>
+      
+      <div class="search-box">
+        <input type="text" id="buscador" placeholder="Buscar por título, autor o tema..." onkeyup="filtrarLibros()">
+        <select id="filtro-categoria" onchange="filtrarLibros()">
+          <option value="todas">Todas las categorías</option>
+          <option value="Pedagogía">Pedagogía y Didáctica</option>
+          <option value="Tecnología">Tecnología y Programación</option>
+          <option value="Investigación">Investigación Educativa</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="contenedor-libros" class="grid-libros">
+      <!-- Los libros cargan desde script.js -->
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Profesorado en Pedagogía y TIC - FAHUSAC</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
