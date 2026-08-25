@@ -23,11 +23,11 @@ const libros = [
     archivo: "libros/entornos-virtuales.pdf"
   },
   {
-    titulo: "Sílabo didáctica General",
-    autor: "Grety Coronado",
-    categoria: "Tecnología",
-    portada: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=400&q=80",
-    archivo: "https://1024terabox.com/s/15vBVjRHzZkLg1jMe-T9XFw"
+    titulo: "Título de tu Libro Aquí",
+    autor: "Autor o Institución",
+    categoria: "Tecnología", // Opciones: "Tecnología", "Pedagogía" o "Investigación"
+    portada: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=400&q=80", // Enlace de la imagen
+    archivo: "https://1024terabox.com/s/15vBVjRHzZkLg1jMe-T9XFw" // <-- Tu enlace de TeraBox
   },
   {
     titulo: "Didáctica Aplicada a la Educación Virtual",
