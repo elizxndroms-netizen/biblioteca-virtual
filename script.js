@@ -21,7 +21,22 @@ const libros = [
     categoria: "Pedagogía",
     portada: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=400&q=80",
     archivo: "libros/entornos-virtuales.pdf"
+  },
+  {
+    titulo: "Sílabo didáctica General",
+    autor: "Grety Coronado",
+    categoria: "Tecnología",
+    portada: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=400&q=80",
+    archivo: "https://1024terabox.com/s/15vBVjRHzZkLg1jMe-T9XFw"
+  },
+  {
+    titulo: "Didáctica Aplicada a la Educación Virtual",
+    autor: "FAHUSAC",
+    categoria: "Pedagogía",
+    portada: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=400&q=80",
+    archivo: "https://drive.google.com/file/d/EJEMPLO_2/view?usp=sharing"
   }
+];
 ];
 
 // Función para renderizar los libros en el HTML
