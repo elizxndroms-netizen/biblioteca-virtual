@@ -6,7 +6,7 @@ const libros = [
     autor: "Departamento de TIC",
     categoria: "Tecnología",
     portada: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=400&q=80",
-    archivo: "libros/manual-pygame.pdf"
+    archivo: "https://1024terabox.com/s/1JG8tZI6p0ctlC-CDQh8kdg"
   },
   {
     titulo: "Metodología de la Investigación Educativa",
