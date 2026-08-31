@@ -185,3 +185,29 @@ footer {
   background-color: #218838;
   transform: translateY(-2px);
 }
+.contenedor-boton-sugerir {
+  display: flex;
+  justify-content: flex-start; /* Alinea el contenido a la izquierda */
+  width: 100%;
+  max-width: 1200px;           /* O el ancho máximo que use tu página */
+  margin: 15px auto 20px auto; /* Centra el bloque general y da márgenes arriba/abajo */
+  padding-left: 20px;          /* Separación respecto al borde izquierdo de la pantalla */
+}
+
+.btn-sugerir {
+  display: inline-block;
+  background-color: #28a745;
+  color: #ffffff;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-sugerir:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
